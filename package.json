@@ -1,0 +1,26 @@
+{
+  "name": "nest-mongo",
+  "version": "0.1.0",
+  "description": "A little package for interacting with your MongoDB database",
+  "main": "dist/index",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nestjs/common": "^4.4.2",
+    "@nestjs/core": "^4.4.2",
+    "@nestjs/microservices": "^4.4.1",
+    "@nestjs/websockets": "^4.4.1",
+    "@types/mongodb": "^2.2.16",
+    "reflect-metadata": "^0.1.10",
+    "rxjs": "^5.5.2"
+  },
+  "dependencies": {
+    "mongodb": "^2.2.33"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "^4.0.0"
+  }
+}
