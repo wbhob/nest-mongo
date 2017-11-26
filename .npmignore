@@ -1,0 +1,6 @@
+test
+src
+e2e
+node_modules
+coverage
+.nyc_output

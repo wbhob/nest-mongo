@@ -1,4 +1,4 @@
-import { Component, Logger } from '@nestjs/common';
+import { Component } from '@nestjs/common';
 import { Admin, Collection, CollectionCreateOptions, CommandCursor, Db, DbAddUserOptions, DbCollectionOptions, IndexOptions, MongoClient, MongoClientOptions, MongoError, Mongos, ReadPreference, ReplSet, Server } from 'mongodb';
 
 
@@ -67,10 +67,10 @@ export class Mongo {
     Mongo.db.writeConcern = writeConcern;
   }
 
-  constructor(private logger: Logger) {
+  constructor() {
     const initCallback = (err: MongoError, db: Db) => {
       if (err) {
-        return this.logger.error('MONGODB ERROR: ' + err.message);
+        return console.error('MONGODB ERROR: ' + err.message);
       }
       Mongo.db = db;
     };
