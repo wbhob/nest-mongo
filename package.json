@@ -1,6 +1,6 @@
 {
   "name": "nest-mongo",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A wrapper for MongoDB for Nest",
   "main": "dist/index",
   "scripts": {
@@ -31,7 +31,6 @@
     "@nestjs/websockets": "^4.4.1",
     "@types/chai": "^4.0.5",
     "@types/mocha": "^2.2.44",
-    "@types/mongodb": "^2.2.16",
     "@types/supertest": "^2.0.4",
     "chai": "^4.1.2",
     "coveralls": "^3.0.0",
@@ -44,7 +43,8 @@
     "typescript": "^2.6.1"
   },
   "dependencies": {
-    "mongodb": "^2.2.33"
+    "mongodb": "^2.2.33",
+    "@types/mongodb": "^2.2.16"
   },
   "peerDependencies": {
     "@nestjs/common": "^4.0.0"
