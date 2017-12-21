@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.2.3"></a>
+## [0.2.3](https://github.com/wbhob/nest-mongo/compare/v0.2.2...v0.2.3) (2017-12-21)
+
+
+### Bug Fixes
+
+* update typings reference ([58c46ad](https://github.com/wbhob/nest-mongo/commit/58c46ad))
+
+
+
 <a name="0.2.2"></a>
 ## [0.2.2](https://github.com/wbhob/nest-mongo/compare/v0.2.1...v0.2.2) (2017-12-21)
 
