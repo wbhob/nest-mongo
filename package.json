@@ -2,7 +2,8 @@
   "name": "nest-mongo",
   "version": "0.2.2",
   "description": "A wrapper for MongoDB for Nest",
-  "main": "dist/index",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "nyc --require ts-node/register mocha **/*.spec.ts --reporter spec",
